@@ -1,0 +1,81 @@
+{
+  "bdb262de352c94a4babec0c2a8777a17" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e078fc0da9440122",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert (4, True, False) == (0, 'True', 'True')\n  At index 0 diff: 4 != 0\n  Full diff:\n  - (0, 'True', 'True')\n  + (4, True, False)",
+      "time" : {
+        "start" : 1606467261712,
+        "stop" : 1606467261746,
+        "duration" : 34
+      }
+    } ]
+  },
+  "fb8a40eb112974914fbadd3d81f4497f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c78fa18d35cd160f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606467252852,
+        "stop" : 1606467260963,
+        "duration" : 8111
+      }
+    } ]
+  },
+  "cdd636bd12ba0c122f79bb5f3f2845ab" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd773bfa553f0f34",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'False' == 'True'\n  - True\n  + False",
+      "time" : {
+        "start" : 1606467260970,
+        "stop" : 1606467261063,
+        "duration" : 93
+      }
+    } ]
+  },
+  "66555116081486770a9f93826b1f3e5c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f76a0856bee7861f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'False' == 'True'\n  - True\n  + False",
+      "time" : {
+        "start" : 1606467261604,
+        "stop" : 1606467261686,
+        "duration" : 82
+      }
+    } ]
+  }
+}

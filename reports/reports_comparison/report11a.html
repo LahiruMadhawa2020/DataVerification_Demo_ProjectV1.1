@@ -1,0 +1,77 @@
+DataComPy Comparison
+--------------------
+
+DataFrame Summary
+-----------------
+
+  DataFrame  Columns  Rows
+0    Source        6     7
+1    Target        6     6
+
+Column Summary
+--------------
+
+Number of columns in common: 6
+Number of columns in Source but not in Target: 0
+Number of columns in Target but not in Source: 0
+
+Row Summary
+-----------
+
+Matched on: index
+Any duplicates on match values: No
+Absolute Tolerance: 0
+Relative Tolerance: 0
+Number of rows in common: 6
+Number of rows in Source but not in Target: 1
+Number of rows in Target but not in Source: 0
+
+Number of rows with some compared columns unequal: 2
+Number of rows with all compared columns equal: 4
+
+Column Comparison
+-----------------
+
+Number of columns compared with some values unequal: 5
+Number of columns compared with all values equal: 1
+Total number of values which compare unequal: 10
+
+Columns with Unequal Values or Types
+------------------------------------
+
+    Column Source dtype Target dtype  # Unequal  Max Diff  # Null Diff
+2  address       object       object          2       0.0            0
+0      age        int64        int64          2      43.0            0
+4    email       object       object          2       0.0            0
+3   gender       object       object          2       0.0            0
+1     name       object       object          2       0.0            0
+
+Sample Rows with Unequal Values
+-------------------------------
+
+   age (Source)  age (Target)
+4            55          37.0
+5            37          80.0
+
+  name (Source) name (Target)
+5         AAAFA          AAAG
+4          AAAE         AAAFA
+
+       address (Source)      address (Target)
+5  28, asdassdas,adaads  29, asdassdas,adaads
+4  27, asdassdas,adaads  28, asdassdas,adaads
+
+  gender (Source) gender (Target)
+4               F               M
+5               M               A
+
+  email (Source) email (Target)
+5    abh@abc.com    abi@abc.com
+4    abg@abc.com    abh@abc.com
+
+Sample Rows Only in Source (First 10 Columns)
+---------------------------------------------
+
+    id  name               address        email  age gender
+6  7.0  AAAG  29, asdassdas,adaads  abi@abc.com   80      A
+

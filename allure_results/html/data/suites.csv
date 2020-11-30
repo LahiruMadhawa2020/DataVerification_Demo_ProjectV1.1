@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Nov 27 14:24:12 IST 2020","Fri Nov 27 14:24:20 IST 2020","8111","","test_tc1_execute_testcsv","","","","test_source_profiling_tc01","
+        Use case description: This is a use case description, Test case 01, Data profiling of csv_s1.csv file
+    "
+"failed","Fri Nov 27 14:24:21 IST 2020","Fri Nov 27 14:24:21 IST 2020","82","","test_tc1_execute_testcsv","","","","test_source_csv_business_validation",""
+"failed","Fri Nov 27 14:24:20 IST 2020","Fri Nov 27 14:24:21 IST 2020","93","","test_tc1_execute_testcsv","","","","test_source_csv_general",""
+"failed","Fri Nov 27 14:24:21 IST 2020","Fri Nov 27 14:24:21 IST 2020","34","","test_tc1_execute_testcsv","","","","test_source_target_comparison",""

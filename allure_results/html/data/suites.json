@@ -1,0 +1,61 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_tc1_execute_testcsv",
+    "children" : [ {
+      "name" : "test_source_profiling_tc01",
+      "uid" : "c78fa18d35cd160f",
+      "parentUid" : "a162abda49fb28dbc3aa8c05b554c386",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606467252852,
+        "stop" : 1606467260963,
+        "duration" : 8111
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_source_csv_general",
+      "uid" : "bd773bfa553f0f34",
+      "parentUid" : "a162abda49fb28dbc3aa8c05b554c386",
+      "status" : "failed",
+      "time" : {
+        "start" : 1606467260970,
+        "stop" : 1606467261063,
+        "duration" : 93
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_source_csv_business_validation",
+      "uid" : "f76a0856bee7861f",
+      "parentUid" : "a162abda49fb28dbc3aa8c05b554c386",
+      "status" : "failed",
+      "time" : {
+        "start" : 1606467261604,
+        "stop" : 1606467261686,
+        "duration" : 82
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_source_target_comparison",
+      "uid" : "e078fc0da9440122",
+      "parentUid" : "a162abda49fb28dbc3aa8c05b554c386",
+      "status" : "failed",
+      "time" : {
+        "start" : 1606467261712,
+        "stop" : 1606467261746,
+        "duration" : 34
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a162abda49fb28dbc3aa8c05b554c386"
+  } ]
+}

@@ -1,0 +1,92 @@
+{
+  "uid" : "c94fb2f5e4d9582f",
+  "name" : "test_source_target_comparison",
+  "fullName" : "test_tc1_execute_testcsv#test_source_target_comparison",
+  "historyId" : "bdb262de352c94a4babec0c2a8777a17",
+  "time" : {
+    "start" : 1606464166316,
+    "stop" : 1606464166353,
+    "duration" : 37
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert (4, True, False) == (0, 'True', 'True')\n  At index 0 diff: 4 != 0\n  Full diff:\n  - (0, 'True', 'True')\n  + (4, True, False)",
+  "statusTrace" : "csv_source_s1 =     id   name               address        email  age gender\n0  1.0   AAAA  23, asdassdas,adaads  abc@abc.com   34    ... 6.0  AAAFA  28, asdassdas,adaads  abh@abc.com   37      M\n6  7.0   AAAG  29, asdassdas,adaads  abi@abc.com   80      A\ncsv_source_s2 =     id   name               address        email  age gender\n0  1.0   AAAA  23, asdassdas,adaads  abc@abc.com   34    ... 5.0  AAAFA  28, asdassdas,adaads  abh@abc.com   37      M\n5  6.0   AAAG  29, asdassdas,adaads  abi@abc.com   80      A\n\n    @allure.feature('test_module_02')\n    @allure.story('test_story_01')\n    @allure.severity('critical')\n    @pytest.mark.run(order=4)\n    def test_source_target_comparison(csv_source_s1, csv_source_s2):\n        comparison = Validation().compare_table1_values_with_table2_values(csv_source_s1, csv_source_s2)\n        \"\"\"\n            Use case description: This is a use case description, Data comparison test of csv_s1.csv & csv_s2.csv\n        \"\"\"\n        # perform pytest assertion\n>       assert comparison == (0, 'True', 'True')\nE       AssertionError: assert (4, True, False) == (0, 'True', 'True')\nE         At index 0 diff: 4 != 0\nE         Full diff:\nE         - (0, 'True', 'True')\nE         + (4, True, False)\n\ntest_tc1_execute_testcsv.py:83: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "csv_source_s1",
+    "time" : {
+      "start" : 1606464166310,
+      "stop" : 1606464166313,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "csv_source_s2",
+    "time" : {
+      "start" : 1606464166313,
+      "stop" : 1606464166315,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_module_02"
+  }, {
+    "name" : "story",
+    "value" : "test_story_01"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "suite",
+    "value" : "test_tc1_execute_testcsv"
+  }, {
+    "name" : "host",
+    "value" : "ZSRIL-1X760Z2"
+  }, {
+    "name" : "thread",
+    "value" : "10484-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_tc1_execute_testcsv"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=4)" ]
+  },
+  "source" : "c94fb2f5e4d9582f.json",
+  "parameterValues" : [ ]
+}

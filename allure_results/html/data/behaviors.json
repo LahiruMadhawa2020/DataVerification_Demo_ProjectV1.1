@@ -1,0 +1,81 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_module_01",
+    "children" : [ {
+      "name" : "test_story_01",
+      "children" : [ {
+        "name" : "test_source_profiling_tc01",
+        "uid" : "c78fa18d35cd160f",
+        "parentUid" : "77cbbea569e2b0eccbfbc50262960f67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606467252852,
+          "stop" : 1606467260963,
+          "duration" : 8111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77cbbea569e2b0eccbfbc50262960f67"
+    }, {
+      "name" : "test_story_02",
+      "children" : [ {
+        "name" : "test_source_csv_general",
+        "uid" : "bd773bfa553f0f34",
+        "parentUid" : "597b0f099602248e5e565a02dc76dabd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1606467260970,
+          "stop" : 1606467261063,
+          "duration" : 93
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "597b0f099602248e5e565a02dc76dabd"
+    }, {
+      "name" : "test_story_03",
+      "children" : [ {
+        "name" : "test_source_csv_business_validation",
+        "uid" : "f76a0856bee7861f",
+        "parentUid" : "a561771656f9f88e190480cef2344590",
+        "status" : "failed",
+        "time" : {
+          "start" : 1606467261604,
+          "stop" : 1606467261686,
+          "duration" : 82
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a561771656f9f88e190480cef2344590"
+    } ],
+    "uid" : "023283d5bf38c1bccfdfcafe2dd0afe2"
+  }, {
+    "name" : "test_module_02",
+    "children" : [ {
+      "name" : "test_story_01",
+      "children" : [ {
+        "name" : "test_source_target_comparison",
+        "uid" : "e078fc0da9440122",
+        "parentUid" : "293092c23a7d0b2346204039e2e600b5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1606467261712,
+          "stop" : 1606467261746,
+          "duration" : 34
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "293092c23a7d0b2346204039e2e600b5"
+    } ],
+    "uid" : "42b8e93e9608594053c53db5878a3b8e"
+  } ]
+}
